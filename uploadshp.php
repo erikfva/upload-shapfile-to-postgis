@@ -37,7 +37,7 @@
 <?php
 
 	//configuracion de la conexion a la BD PostgreSQL;
-	$infoDb = array("host" => "localhost", "port" => 5432, "user" => "admderechos", "pass" => "Abt2016!", "db" => "geodatabase");
+	$infoDb = array("host" => "localhost", "port" => 5432, "user" => "your user", "pass" => "your pass", "db" => "your database");
 	
 	//Esquema de la BD donde se subiran los shapefiles.
 	$UPLOAD_SCHEMA = "temp"; 
